@@ -1,8 +1,12 @@
-import React from 'react'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section className="bg-purple-900 text-white rounded-2xl">
+      <div>
+        <Image />
+      </div>
+    </section>
   )
 }
 

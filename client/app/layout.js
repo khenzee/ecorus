@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${lato.variable} ${poppins.variable} antialiased`}
+        className={`${lato.variable} ${poppins.variable} antialiased p-2 space-y-2 relative`}
       >
         <NavigationBar />
         {children}
